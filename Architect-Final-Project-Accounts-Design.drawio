@@ -79,6 +79,9 @@
         <mxCell id="eb3B5uFBkSlpRyDjKCf3-1" value="Linux only" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.resources;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="584.25" y="600" width="35.75" height="39.5" as="geometry" />
         </mxCell>
+        <mxCell id="eb3B5uFBkSlpRyDjKCf3-3" value="Entra AD&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Managed_Identities.svg;" vertex="1" parent="1">
+          <mxGeometry x="384" y="850" width="68" height="66" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
