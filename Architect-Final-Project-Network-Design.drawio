@@ -76,6 +76,12 @@
             <mxPoint x="1415" y="1054.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Uqf70fdPnF49nWEM46q--6" value="VMWare" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.server_stack;" vertex="1" parent="1">
+          <mxGeometry x="381.4" y="1030.2" width="57.2" height="49.6" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqf70fdPnF49nWEM46q--7" value="VMWare" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.server_stack;" vertex="1" parent="1">
+          <mxGeometry x="1412.4" y="1030.2" width="57.2" height="49.6" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
