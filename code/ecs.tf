@@ -65,5 +65,5 @@ resource "aws_ecs_service" "ecs_service" {
     container_name                      = "test-container"
     container_port                      = var.container_port
   }
-  depends_on                            = [aws_lb_listener.listener]
+  depends_on                            = [ aws_lb_listener.https_listener ]
 }

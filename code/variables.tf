@@ -10,6 +10,7 @@ variable "hosted_zone_name" {
 }
 
 variable "hosted_zone_id" {
+  default     = "Z03034503YWPC5ROG1KQ"
   type        = string
   description = "The id of the hosted zone of the Route53 domain"
 }
