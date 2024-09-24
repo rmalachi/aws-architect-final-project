@@ -76,11 +76,8 @@
         <mxCell id="gej4rJAEiJTHoC07j1IZ-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/Entra_ID_Protection.svg;" vertex="1" parent="1">
           <mxGeometry x="38.12" y="82" width="87.75" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="gej4rJAEiJTHoC07j1IZ-2" value="Linux Resources" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="359" y="700" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gej4rJAEiJTHoC07j1IZ-3" value="USA &amp;amp; IL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="489" y="740" width="70" height="30" as="geometry" />
+        <mxCell id="gej4rJAEiJTHoC07j1IZ-3" value="USA &amp;amp; IL&lt;div&gt;Resources&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="484" y="760" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gej4rJAEiJTHoC07j1IZ-5" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="gej4rJAEiJTHoC07j1IZ-4" target="lANeDLZupoDU989c10M4-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -95,7 +92,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gej4rJAEiJTHoC07j1IZ-4" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.location;" vertex="1" parent="1">
-          <mxGeometry x="512" y="710" width="24" height="30" as="geometry" />
+          <mxGeometry x="512" y="727.4" width="24" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gej4rJAEiJTHoC07j1IZ-7" value="resources" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#EF8F21;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.linux;" vertex="1" parent="1">
+          <mxGeometry x="395.6" y="720" width="44.8" height="44.8" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
