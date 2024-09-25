@@ -250,7 +250,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VjsCKAV40tYy3i-xvCUT-2" value="DynamoDB&lt;div&gt;Replication&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.dynamodb;" parent="1" vertex="1">
-          <mxGeometry x="-100" y="1065" width="80" height="110" as="geometry" />
+          <mxGeometry x="-100" y="1090" width="80" height="110" as="geometry" />
         </mxCell>
         <mxCell id="VjsCKAV40tYy3i-xvCUT-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;flowAnimation=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="VjsCKAV40tYy3i-xvCUT-2" target="C3LEZmclD4hV7QYWi0aZ-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
