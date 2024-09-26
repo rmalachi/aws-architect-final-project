@@ -7,7 +7,7 @@ Currently there are 2 major sites in __Israel__ & __Indiana__ based on __S2S VPN
 The company has the following challenges for migrating several services to the cloud based
 on __AWS__ services and working as a hybrid platform, as followed by sections:
 
-## $${\color{blue}Physical \space \\& \space virtual \space environments}$$
+## $${\color{blue}A. Physical \space \\& \space virtual \space environments}$$
 1. Lovely has 50 employees based on organizational units as follows:
     * __R&D__ – 20 employees
     * __IT__ – 10 employees
@@ -18,7 +18,7 @@ on __AWS__ services and working as a hybrid platform, as followed by sections:
 4. __R&D__ & __IT__ employees are divided between __Indiana__ & __Israel__ assets.
 5. For simple deployment create max 5 employees for each account.
 
-## $${\color{blue}Account \space \\& \space billing \space architecture \space demands}$$
+## $${\color{blue}B. Account \space \\& \space billing \space architecture \space demands}$$
 1. Each __OU__ needs its own AWS account according to its __budget__.
 2. They need to get an alarm based on notification when the costs are greater than $5.
 3. The relevant solutions need a management platform to manage all the relevant
@@ -27,7 +27,7 @@ on __AWS__ services and working as a hybrid platform, as followed by sections:
 5. __R&D__ accounts have AWS services in the __Europe__ and __USA__.
 6. __IT__ & __DevOps__ have also used AWS services in the __Europe__ and __USA__ regions.
    
-## $${\color{blue}IT \space architecture \space demands}$$
+## $${\color{blue}C. IT \space architecture \space demands}$$
 1. The __Identity Provider__ for the company is __Azure AD__.
 2. The __CISO__ of the company is instructed to create an __SSO__ solution based on __MFA__ with
    __Azure AD__ and AWS accounts.
@@ -38,7 +38,7 @@ on __AWS__ services and working as a hybrid platform, as followed by sections:
 5. For cost savings, at the end of the date, automatically terminate all the unused
    instances or services.
 
-## $${\color{blue}Network \space architecture \space demands}$$
+## $${\color{blue}D. Network \space architecture \space demands}$$
 1. Lovely site in Israel needs to be connected securely to __R&D__ based asset services in
    __USA__ via __S2S VPN Bidirectional__.
    a. You can create a dedicated account or use one of the current to create S2S
@@ -59,7 +59,7 @@ on __AWS__ services and working as a hybrid platform, as followed by sections:
 14. Access to AWS service is only allowed from Lovely on-premises assets & your home
     IP only.
 
-## $${\color{blue}IT \space architecture \space demands \space for \space resource \space sharing}$$
+## $${\color{blue}E. IT \space architecture \space demands \space for \space resource \space sharing}$$
 All shared documents need to be in the S3 bucket with the current tree folders as
 follows:
 
@@ -80,7 +80,7 @@ follows:
 9. EC2 instance from the IT private subnet account must have a dedicated permissions
    for managing the bucket with minimal costs.
 
-## $${\color{blue}CISO \space architecture \space demands}$$
+## $${\color{blue}F. CISO \space architecture \space demands}$$
 1. Each account must have a role separation for a granular dedicated task.
 2. You can use RBAC or ABAC based policy for applying the roles.
 3. The administrator role is forbidden for day-to-day use.
@@ -99,7 +99,7 @@ underlying infrastructure that runs the containerized workload.
 the Lovely company logo, and shared for all accounts as base line infrastructure
 images.
 
-## $${\color{blue}R\\&D \space architecture \space demands}$$
+## $${\color{blue}G. R\\&D \space architecture \space demands}$$
 1. The main product of Lovely is the social meeting web site that based on WordPress architecture.
 2. A company is developing a two-tier web application on AWS.
 3. The company's developers will deploy the application on an Amazon EC2 instance
@@ -121,7 +121,7 @@ localized in the user's country - challenge.
 10. The company must also implement a solution to automatically rotate the database
 credentials on a regular basis – challenge.
 
-## $${\color{blue}Management \space architecture \space demands}$$
+## $${\color{blue}H. Management \space architecture \space demands}$$
 1. The whole project architecture needs to be drafted using in high-level design(HLD).
 2. The __R&D__ implantation needs to be drafted using low level design (LLD).
 3. Make a summarize presentation for all your solution architect project.
