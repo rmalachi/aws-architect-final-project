@@ -32,15 +32,15 @@ on __AWS__ services and working as a hybrid platform, as followed by sections:
 3. The relevant solutions need a management platform to manage all the relevant
    accounts in a single management platform, for business expense monitoring with
    relevant security policies for each __OU__.
-## $${\color{yellow}Users}$$
+## $${\color{yellow}Network \space \\& \space Users}$$
 5. __R&D__ accounts have AWS services in the __Europe__ and __USA__.
-## $${\color{yellow}Users}$$
+## $${\color{yellow}Network \space \\& \space Users}$$
 6. __IT__ & __DevOps__ have also used AWS services in the __Europe__ and __USA__ regions.
    
 ## $${\color{blue}C. IT \space architecture \space demands}$$
-## $${\color{yellow}Users}$$
+## $${\color{yellow}Infrastructure}$$
 1. The __Identity Provider__ for the company is __Azure AD__.
-## $${\color{yellow}Users}$$
+## $${\color{yellow}Infrastructure}$$
 2. The __CISO__ of the company is instructed to create an __SSO__ solution based on __MFA__ with
    __Azure AD__ and AWS accounts.
    * The current task is based on user provisioning & not a group based
@@ -49,19 +49,19 @@ on __AWS__ services and working as a hybrid platform, as followed by sections:
 3. Only __IT__ has __root account access__ for all Lovely AWS accounts.
 ## $${\color{yellow}Users}$$
 4. __IAM__ local users are allowed only for auditing and monitoring by IT employees.
-## $${\color{yellow}Users}$$
+## $${\color{yellow}Infrastructure}$$
 5. For cost savings, at the end of the date, automatically terminate all the unused
    instances or services.
 
 ## $${\color{blue}D. Network \space architecture \space demands}$$
-## $${\color{yellow}Users}$$
+## $${\color{yellow}Infrastructure}$$
 1. Lovely site in Israel needs to be connected securely to __R&D__ based asset services in
    __USA__ via __S2S VPN Bidirectional__.
    a. You can create a dedicated account or use one of the current to create S2S
        based on AWS services, instead of local VMware assets.
-## $${\color{yellow}Users}$$
+## $${\color{yellow}Infrastructure}$$
 3. The network architecture needs to be based on __public__ & __private__ solutions.
-## $${\color{yellow}Users}$$
+## $${\color{yellow}Network \space \\& \space Users}$$
 4. Each account needs its own network segments for routing challenges.
 ## $${\color{yellow}Users}$$
 5. Each __region__ must have one or more __VPCs__ for managing the network.
