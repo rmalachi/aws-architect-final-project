@@ -1,0 +1,66 @@
+Chapter       Demand                   R&D            IT             DevOps         Management      Resources      Task
+A1[A2](A5)    # employess              20(5)          10(5)          10(5)          [1]
+A3            Resources Platform       Linux
+A4            Employees Location       US + EU        US + EU  
+B1[B3]        AWS Account              LovelyRD       LovelyIT       LovelyDO       [Admin]
+B2            Account Budget Alarm     >5$            >5$            >5$
+B3            Management Platform
+              for all accounts 
+              + Expense, Monitoring    RD_Sec_Policy  IT_Sec_Policy  DO_Sec_Policy  Admin
+B4[B5]        AWS Services location    US + EU        US + EU        US + EU
+C3            Root account access      -              V              -
+              for all Lovely 
+              AWS accounts
+C4            IAM Local users -        -              V              -
+              Auditing and Monitoring
+D3            Each account has its own V             V              V
+              network segment for 
+              routing challenges
+D5, D6        Dedicated Segment        [1000]         [500]
+              [# instances]            => CIDR 23     => CIDR 22
+D7            Granular access to manage  -            V             V
+              all network services in
+              all AWS accounts.
+D9            Sec policy to manage EC2                                                              V
+              - minimize exposure to 
+              public addresses, connect
+              directly to private subnets.
+D10           All private networks -                                                                V          add to diagram
+              access to the internet 
+              for regular patching.
+D11           Access to AWS service                                                               Lovely on-premiss
+                                                                                                  assets & your home IP
+E1            OU - Access to its own    V              V            V
+              folder on S3 based on
+              EntraID account
+E8            EC2 from private subnet                  V
+              account must have 
+              dedicated permission for
+              managing the bucket with
+              minimal costs.
+F1            Role separation for a     V              V             V
+              granular dedicated task
+F2            RBAC/ABAC policy for
+              applying the roles.
+F3            Forbidden for day to                                                  V
+              day use.
+F8            EC2 inst in private
+              subnets can have access
+              for each AWS service.
+F10           Access based on FQDN -
+              all assets and services
+F11           Images update & manage                  V
+F11           Images shared for all    V              V              V
+              accounts as baseline
+              infra.
+
+
+
+
+
+
+
+
+
+
+
