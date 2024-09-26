@@ -203,7 +203,7 @@
         </mxCell>
         <mxCell id="05DJVi1TkWHC4ERA7Z5K-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="C3LEZmclD4hV7QYWi0aZ-1" target="05DJVi1TkWHC4ERA7Z5K-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="220" y="286" as="sourcePoint" />
+            <mxPoint x="220" y="306" as="sourcePoint" />
             <mxPoint x="277" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
