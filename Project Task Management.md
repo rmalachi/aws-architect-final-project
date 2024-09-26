@@ -63,12 +63,12 @@ on __AWS__ services and working as a hybrid platform, as followed by sections:
 3. The network architecture needs to be based on __public__ & __private__ solutions.
 ## $${\color{yellow}Network \space \\& \space Users}$$
 4. Each account needs its own network segments for routing challenges.
-## $${\color{yellow}Users}$$
+## $${\color{yellow}Network}$$
 5. Each __region__ must have one or more __VPCs__ for managing the network.
-## $${\color{yellow}Users}$$
+## $${\color{yellow}Network}$$
 6. The __R&D__ teams need a dedicated segment with up to __1,000 instances__ for test
    deployments.
-## $${\color{yellow}Users}$$
+## $${\color{yellow}Network}$$
 7. The __IT__ teams need a dedicated segment for up to __500__ instances.
 ## $${\color{yellow}Users}$$
 8. Only __IT__ and __DevOps__ accounts have granular access to manage all the network
