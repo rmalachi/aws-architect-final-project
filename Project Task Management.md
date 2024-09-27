@@ -60,35 +60,34 @@ on __AWS__ services and working as a hybrid platform, as followed by sections:
    a. You can create a dedicated account or use one of the current to create S2S
        based on AWS services, instead of local VMware assets.
 ## $${\color{yellow}Infrastructure}$$
-3. The network architecture needs to be based on __public__ & __private__ solutions.
+2. The network architecture needs to be based on __public__ & __private__ solutions.
 ## $${\color{yellow}Network \space \\& \space Users}$$
-4. Each account needs its own network segments for routing challenges.
+3. Each account needs its own network segments for routing challenges.
 ## $${\color{yellow}Network}$$
-5. Each __region__ must have one or more __VPCs__ for managing the network.
+4. Each __region__ must have one or more __VPCs__ for managing the network.
 ## $${\color{yellow}Network}$$
-6. The __R&D__ teams need a dedicated segment with up to __1,000 instances__ for test
+5. The __R&D__ teams need a dedicated segment with up to __1,000 instances__ for test
    deployments.
 ## $${\color{yellow}Network}$$
-7. The __IT__ teams need a dedicated segment for up to __500__ instances.
+6. The __IT__ teams need a dedicated segment for up to __500__ instances.
 ## $${\color{yellow}Users}$$
-8. Only __IT__ and __DevOps__ accounts have granular access to manage all the network
+7. Only __IT__ and __DevOps__ accounts have granular access to manage all the network
    services in all AWS accounts.
 ## $${\color{yellow}Irrelevant}$$
-9. Employees from R&D in USA must have route access to R&D in Europe network
+8. Employees from R&D in USA must have route access to R&D in Europe network
     assets only – If you are not applying S2S (for external guest students).
 ## $${\color{yellow}Security \space \\& \space Network}$$
-11. The company's security policy for managing EC2 instances is to minimize the
+9. The company's security policy for managing EC2 instances is to minimize the
     exposure of public addresses and to connect directly to private subnets.
 ## $${\color{yellow}Network}$$
-13. All private networks need access to the internet for regular patching.
+10. All private networks need access to the internet for regular patching.
 ## $${\color{yellow}}Security \space \\& \space Network}$$
-14. Access to AWS service is only allowed from Lovely on-premises assets & your home
+11. Access to AWS service is only allowed from Lovely on-premises assets & your home
     IP only.
 
 ## $${\color{blue}E. IT \space architecture \space demands \space for \space resource \space sharing}$$
 All shared documents need to be in the S3 bucket with the current tree folders as
 follows:
-
 ## $${\color{yellow}Users}$$
 1. According to permissions, each __OU__ has only access to its own folder based on
    Entra-ID account.
