@@ -73,15 +73,15 @@ on __AWS__ services and working as a hybrid platform, as followed by sections:
 ## $${\color{yellow}Users}$$
 8. Only __IT__ and __DevOps__ accounts have granular access to manage all the network
    services in all AWS accounts.
-## $${\color{yellow}Users}$$
+## $${\color{yellow}Irrelevant}$$
 9. Employees from R&D in USA must have route access to R&D in Europe network
     assets only – If you are not applying S2S (for external guest students).
-## $${\color{yellow}Users}$$
+## $${\color{yellow}Security \space \\& \space Network}$$
 11. The company's security policy for managing EC2 instances is to minimize the
     exposure of public addresses and to connect directly to private subnets.
-## $${\color{yellow}Users}$$
+## $${\color{yellow}Network}$$
 13. All private networks need access to the internet for regular patching.
-## $${\color{yellow}Users}$$
+## $${\color{yellow}}Security \space \\& \space Network}$$
 14. Access to AWS service is only allowed from Lovely on-premises assets & your home
     IP only.
 
