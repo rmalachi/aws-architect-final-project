@@ -33,9 +33,9 @@ on __AWS__ services and working as a hybrid platform, as followed by sections:
    accounts in a single management platform, for business expense monitoring with
    relevant security policies for each __OU__.
 ## $${\color{yellow}Network \space \\& \space Users}$$
-5. __R&D__ accounts have AWS services in the __Europe__ and __USA__.
+4. __R&D__ accounts have AWS services in the __Europe__ and __USA__.
 ## $${\color{yellow}Network \space \\& \space Users}$$
-6. __IT__ & __DevOps__ have also used AWS services in the __Europe__ and __USA__ regions.
+5. __IT__ & __DevOps__ have also used AWS services in the __Europe__ and __USA__ regions.
    
 ## $${\color{blue}C. IT \space architecture \space demands}$$
 ## $${\color{yellow}Infrastructure}$$
@@ -92,25 +92,25 @@ follows:
 1. According to permissions, each __OU__ has only access to its own folder based on
    Entra-ID account.
 ## $${\color{yellow}Users}$$
-3. All the files must be encrypted with dedicated symmetric key managed by you.
+2. All the files must be encrypted with dedicated symmetric key managed by you.
 ## $${\color{yellow}Users}$$
-4. The storage must have redundancy with 3 copy’s highly available and durable
+3. The storage must have redundancy with 3 copy’s highly available and durable
    solution that preserves how users currently access the files.
 ## $${\color{yellow}Users}$$
-5. For disaster recovery the CISO instruct to create another copy of the current bucket
+4. For disaster recovery the CISO instruct to create another copy of the current bucket
    with minimal costs.
 ## $${\color{yellow}Users}$$
-6. All the files must have a dedicated policy for 10 days safe before they are deleted –
+5. All the files must have a dedicated policy for 10 days safe before they are deleted –
    the current challenge isn’t supported by AWS with replication features, you can
    create a granular bucket to enable this feature .
 ## $${\color{yellow}Users}$$
-7. All the files can be restored to their previous state at any time.
+6. All the files can be restored to their previous state at any time.
 ## $${\color{yellow}Users}$$
-8. The current bucket needs to be shared and automatically replicated for multiple
+7. The current bucket needs to be shared and automatically replicated for multiple
    regions, including the USA & Europe regions, while each side adds a file its automate
    the replica to other regions – challenged.
 ## $${\color{yellow}Users}$$
-9. EC2 instance from the IT private subnet account must have a dedicated permissions
+8. EC2 instance from the IT private subnet account must have a dedicated permissions
    for managing the bucket with minimal costs.
 
 ## $${\color{blue}F. CISO \space architecture \space demands}$$
