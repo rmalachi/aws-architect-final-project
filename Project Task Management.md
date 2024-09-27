@@ -81,7 +81,7 @@ on __AWS__ services and working as a hybrid platform, as followed by sections:
     exposure of public addresses and to connect directly to private subnets.
 ## $${\color{yellow}Network}$$
 10. All private networks need access to the internet for regular patching.
-## $${\color{yellow}}Security \space \\& \space Network}$$
+## $${\color{yellow}Security \space \\& \space Network}$$
 11. Access to AWS service is only allowed from Lovely on-premises assets & your home
     IP only.
 
