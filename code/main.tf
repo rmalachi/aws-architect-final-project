@@ -1,11 +1,18 @@
 ###################################################################################
-# This file describes the vpc, internet gateway, nat gateway and route tables
+# This file describes the vpc, subnets, internet gateway, nat gateway and route tables
 ###################################################################################
 
 resource "aws_vpc" "vpc" {
     cidr_block              = var.vpc_cidr
     enable_dns_hostnames    = true
     enable_dns_support      = true
+}
+
+resource "aws_vpc" "vpc-eu" {
+    cidr_block              = var.vpc_eu_cidr
+    enable_dns_hostnames    = true
+    enable_dns_support      = true
+    provider                = aws.eu_env
 }
 
 resource "aws_internet_gateway" "igw" {
