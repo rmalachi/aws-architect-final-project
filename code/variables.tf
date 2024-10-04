@@ -57,9 +57,39 @@ variable "availibilty_zone_1" {
 
 variable "availibilty_zone_2" {
   type        = string
-  description = "First availibility zone"
+  description = "Second availibility zone"
 }
-  
+
+variable "public_subnet_eu_1" {
+  type        = string
+  description = "CIDR block for european public subnet 1"
+}
+
+variable "public_subnet_eu_2" {
+  type        = string
+  description = "CIDR block for european public subnet 2"
+}
+
+variable "private_subnet_eu_1" {
+  type        = string
+  description = "CIDR block for european private subnet 1"
+}
+
+variable "private_subnet_eu_2" {
+  type        = string
+  description = "CIDR block for european private subnet 2"
+}
+
+variable "availibilty_zone_eu_1" {
+  type        = string
+  description = "First european availibility zone"
+}
+
+variable "availibilty_zone_eu_2" {
+  type        = string
+  description = "Second european availibility zone"
+}
+
 variable "default_tags" {
   type = map
   default = {
