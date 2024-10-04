@@ -25,6 +25,10 @@ variable "vpc_cidr" {
   type        = string
   description = "CIDR block for the main VPC"
 }
+variable "vpc_eu_cidr" {
+  type        = string
+  description = "CIDR block for the european VPC"
+}
 
 variable "public_subnet_1" {
   type        = string
