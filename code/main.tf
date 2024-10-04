@@ -28,7 +28,6 @@ resource "aws_nat_gateway" "ngw" {
 resource "aws_eip" "nateip" {
     domain                  = "vpc"
 }
-  
 
 resource "aws_subnet" "private_subnet_1" {
     vpc_id                  = aws_vpc.vpc.id
@@ -55,7 +54,37 @@ resource "aws_subnet" "public_subnet_2" {
     availability_zone       = var.availibilty_zone_2
     map_public_ip_on_launch = true
 }
+=============================================================================
+resource "aws_subnet" "private_subnet_1" {
+    vpc_id                  = aws_vpc.vpc-eu.id
+    cidr_block              = var.private_subnet_1
+    availability_zone       = var.availibilty_zone_1
+    provider                = aws.eu_env
+}
 
+resource "aws_subnet" "private_subnet_2" {
+    vpc_id                  = aws_vpc.vpc-eu.id
+    cidr_block              = var.private_subnet_2
+    availability_zone       = var.availibilty_zone_2
+    provider                = aws.eu_env
+}
+
+resource "aws_subnet" "public_subnet_1" {
+    vpc_id                  = aws_vpc.vpc-eu.id
+    cidr_block              = var.public_subnet_1
+    availability_zone       = var.availibilty_zone_1
+    map_public_ip_on_launch = true
+    provider                = aws.eu_env
+}
+
+resource "aws_subnet" "public_subnet_2" {
+    vpc_id                  = aws_vpc.vpc-eu.id
+    cidr_block              = var.public_subnet_2
+    availability_zone       = var.availibilty_zone_2
+    map_public_ip_on_launch = true
+    provider                = aws.eu_env
+}
+-----------------------------------------------------------------------------
 resource "aws_route_table" "public" {
     vpc_id                  = aws_vpc.vpc.id
     
