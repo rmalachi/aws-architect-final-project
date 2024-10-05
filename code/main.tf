@@ -1,18 +1,15 @@
-###################################################################################
-# This file describes the vpc, subnets, internet gateway, nat gateway and route tables
-###################################################################################
+#
+# This file describes the network infrastructure components:
+#     vpc, subnets, internet gateway, nat gateway, route tables
+#
 
+# -------------------------------------------------------
+# Start US Infra Section
+# -------------------------------------------------------
 resource "aws_vpc" "vpc" {
     cidr_block              = var.vpc_cidr
     enable_dns_hostnames    = true
     enable_dns_support      = true
-}
-
-resource "aws_vpc" "vpc-eu" {
-    cidr_block              = var.vpc_eu_cidr
-    enable_dns_hostnames    = true
-    enable_dns_support      = true
-    provider                = aws.eu_env
 }
 
 resource "aws_internet_gateway" "igw" {
@@ -55,6 +52,16 @@ resource "aws_subnet" "public_subnet_2" {
     map_public_ip_on_launch = true
 }
 
+# -------------------------------------------------------
+# Start EU Infra Section
+# -------------------------------------------------------
+resource "aws_vpc" "vpc-eu" {
+    cidr_block              = var.vpc_eu_cidr
+    enable_dns_hostnames    = true
+    enable_dns_support      = true
+    provider                = aws.eu_env
+}
+
 resource "aws_subnet" "private_subnet_eu_1" {
     vpc_id                  = aws_vpc.vpc-eu.id
     cidr_block              = var.private_subnet_1
@@ -84,6 +91,10 @@ resource "aws_subnet" "public_subnet_eu_2" {
     map_public_ip_on_launch = true
     provider                = aws.eu_env
 }
+# -------------------------------------------------------
+# End Infra EU Section
+# -------------------------------------------------------
+
 
 resource "aws_route_table" "public" {
     vpc_id                  = aws_vpc.vpc.id
