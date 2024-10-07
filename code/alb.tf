@@ -10,7 +10,7 @@ resource "aws_alb" "application_load_balancer" {
   name                      = "test-alb"
   internal                  = false
   load_balancer_type        = "application"
-  subnets                   = [aws_subnet.public_subnet_1.id, aws_subnet.public_subnet_2.id]
+  subnets                   = [aws_subnet.public_subnet_us_1.id, aws_subnet.public_subnet_us_2.id]
   security_groups           = [aws_security_group.alb_sg.id]
 }
 

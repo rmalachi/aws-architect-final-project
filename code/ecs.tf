@@ -54,7 +54,7 @@ resource "aws_ecs_service" "ecs_service" {
     desired_count                       = 2 # the number of tasks you wish to run
 
   network_configuration {
-    subnets                             = [aws_subnet.private_subnet_1.id , aws_subnet.private_subnet_2.id]
+    subnets                             = [aws_subnet.private_subnet_us_1.id , aws_subnet.private_subnet_us_2.id]
     assign_public_ip                    = false
     security_groups                     = [aws_security_group.ecs_sg.id, aws_security_group.alb_sg.id]
   }

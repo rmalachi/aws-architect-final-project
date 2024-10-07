@@ -25,67 +25,67 @@ variable "vpc_eu_cidr" {
   type        = string
   description = "CIDR block for the european VPC"
 }
-variable "public_subnet_1" {
+variable "public_subnet_us_1" {
   type        = string
   description = "CIDR block for public subnet 1"
 }
-variable "private_subnet_1" {
+variable "private_subnet_us_1" {
   type        = string
   description = "CIDR block for private subnet 1"
 }
-variable "private_sub_3_it" {
+variable "private_sub_3_us_it" {
   type        = string
   description = "CIDR block for private subnet 3 IT"
 }
-variable "private_sub_4_rd" {
+variable "private_sub_4_us_rd" {
   type        = string
   description = "CIDR block for private subnet 4 RD"
 }
-variable "public_subnet_2" {
+variable "public_subnet_us_2" {
   type        = string
   description = "CIDR block for public subnet 2"
 }
-variable "private_subnet_2" {
+variable "private_subnet_us_2" {
   type        = string
   description = "CIDR block for private subnet 2"
 }
-variable "private_sub_13_it" {
+variable "private_sub_13_us_it" {
   type        = string
   description = "CIDR block for private subnet 3 IT"
 }
-variable "private_sub_14_rd" {
+variable "private_sub_14_us_rd" {
   type        = string
   description = "CIDR block for private subnet 4 RD"
 }
-variable "public_sub_1" {
+variable "public_sub_eu_1" {
   type        = string
   description = "CIDR block for european public subnet 1"
 }
-variable "private_sub_2" {
+variable "private_sub_eu_2" {
   type        = string
   description = "CIDR block for european private subnet 2"
 }
-variable "private_sub_3_it" {
+variable "private_sub_3_eu_it" {
   type        = string
   description = "CIDR block for european private subnet 3 IT"
 }
-variable "private_sub_4_rd" {
+variable "private_sub_4_eu_rd" {
   type        = string
   description = "CIDR block for european private subnet 4 RD"
 }
-variable "public_sub_11" {
+variable "public_sub_eu_11" {
   type        = string
   description = "CIDR block for european public subnet 11"
 }
-variable "private_sub_12" {
+variable "private_sub_eu_12" {
   type        = string
   description = "CIDR block for european private subnet 12"
 }
-variable "private_sub_13_it" {
+variable "private_sub_13_eu_it" {
   type        = string
   description = "CIDR block for european private subnet 13 IT"
 }
-variable "private_sub_14_rd" {
+variable "private_sub_14_eu_rd" {
   type        = string
   description = "CIDR block for european private subnet 14 RD"
 }
