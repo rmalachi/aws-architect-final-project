@@ -41,7 +41,7 @@
           <mxGeometry x="370" y="482.5" width="80" height="110" as="geometry" />
         </mxCell>
         <mxCell id="b9plb1413JWHaFBECdBy-9" value="DynamoDB&lt;div&gt;Endpoint&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.endpoints;fillColor=#F58534;gradientColor=none;" vertex="1" parent="j4ZdQfC_km6iXzpJwhjP-24">
-          <mxGeometry x="375.5" y="320" width="69" height="72" as="geometry" />
+          <mxGeometry x="375.5" y="319" width="69" height="72" as="geometry" />
         </mxCell>
         <mxCell id="b9plb1413JWHaFBECdBy-10" value="ECS&lt;div&gt;Fargate&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.ecs;" vertex="1" parent="j4ZdQfC_km6iXzpJwhjP-24">
           <mxGeometry x="180" y="325" width="70" height="105" as="geometry" />
